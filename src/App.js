@@ -57,6 +57,7 @@ return(
             <ListStyle>
               <TodoList todos={todos} toggleTodo={toggleTodo}/>
             </ListStyle>
+            <div>Hello Git</div>
             <CheckBox ref={todoNameRef} type="text" />
             <Button onClick={handleAddTodo}>Add todo</Button>
             <Button onClick={handleClearTodos}>Clear Complete</Button>
