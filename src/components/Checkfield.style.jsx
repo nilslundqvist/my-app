@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const CheckField = styled.label`
-    margin-top: 4%;
-    color:rgb(14, 97, 93);
-    
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    background-color: black;
     `
